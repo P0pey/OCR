@@ -30,7 +30,7 @@ Student on this project:
 ## How run the OCR:
 ```
 $ make
-$ ./ocr
+$ ./main
 
     * Choose an image (there is one on the project folder)
     * Proceed load image if you want to see it
