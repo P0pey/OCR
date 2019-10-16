@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window_main">
+    <property name="width_request">1000</property>
+    <property name="height_request">500</property>
+    <property name="can_focus">False</property>
+    <property name="default_width">1000</property>
+    <property name="default_height">500</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed">
+        <property name="width_request">200</property>
+        <property name="height_request">200</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">200</property>
+            <property name="height_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">OCR TRANTOR</property>
+            <property name="width_chars">0</property>
+          </object>
+          <packing>
+            <property name="x">376</property>
+            <property name="y">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_binarize">
+            <property name="label" translatable="yes">binarize</property>
+            <property name="width_request">250</property>
+            <property name="height_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="margin_bottom">42</property>
+            <signal name="clicked" handler="on_btn_binarize_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">34</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_segmentation">
+            <property name="label" translatable="yes">segmentation</property>
+            <property name="width_request">250</property>
+            <property name="height_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="margin_right">72</property>
+            <signal name="clicked" handler="on_btn_segmentation_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">34</property>
+            <property name="y">217</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_xor">
+            <property name="label" translatable="yes">XOR</property>
+            <property name="width_request">300</property>
+            <property name="height_request">225</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_xor_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">326</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">Something</property>
+            <property name="width_request">300</property>
+            <property name="height_request">225</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">657</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_quit">
+            <property name="label" translatable="yes">Quit</property>
+            <property name="width_request">300</property>
+            <property name="height_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_quit_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">323</property>
+            <property name="y">363</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
