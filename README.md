@@ -1,14 +1,12 @@
-# TRANTOR
+# TRANTOR OCR
 
 EPITA S3 Project (2023#)
 Optical character recognition software written in C.
 
 On this project:
-    - hugo.moreau (Moreau Hugo)
-
-    - anthony1.truong (TRUONG Anthony)
-
-    - maxime.chardon (CHARDON Maxime)
+- hugo.moreau (Moreau Hugo) => [github](https://github.com/iRyukizo)
+- anthony1.truong (TRUONG Anthony)
+- maxime.chardon (CHARDON Maxime) => [github](https://github.com/)
 
 ## Neural Network in /NeuralNetwork
 - contain file for build a neural network.
