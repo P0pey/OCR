@@ -5,7 +5,9 @@ Optical character recognition software written in C.
 
 On this project:
     - hugo.moreau (Moreau Hugo)
+
     - anthony1.truong (TRUONG Anthony)
+
     - maxime.chardon (CHARDON Maxime)
 
 ## Neural Network in /NeuralNetwork
