@@ -1,39 +1,49 @@
-# Trantor OCR
-EPITA S3 Project
+# TRANTOR
 
+EPITA S3 Project (2023#)
+Optical character recognition software written in C.
+
+On this project:
+    - hugo.moreau (Moreau Hugo)
+    - anthony1.truong (TRUONG Anthony)
+    - maxime.chardon (CHARDON Maxime)
+
+## Neural Network in /NeuralNetwork
+- contain file for build a neural network.
+- contain a xor file too.
+- We can save and load training from neural network.
+- Usage:
 ```
-Student on this project:
-    * hugo.moreau (Moreau Hugo)
-    * maxime.chardon (CHARDON Maxime)
-    * anthony1.truong (TRUONG Anthony)
+$ make xor
+$ ./xor #training
+$ ./xor n #for n training
+
+$ make ocr
+$ ./ocr #train by default 1000 iterations
+$ ./ocr <path_to_char> #compute the neural network on this char image
 ```
 
-## NeuralNetwork:
-    - contain file for build a neural network.
-    - contain a xor file too.
-    - We can save and load training from neural network.
-        - Usage : make xor
-               "> ./xor" for training
-               "> ./xor n" for n training
-               make ocr
-               "> ./ocr" for train 1000 times neural network
-               "> ./ocr path_to_image" to compute network with image
+## Segmentation in /segmentation
+- contain file for cut an image in bloc, line and character.
+- coutain file for applying grayscale and binarization.
+- Usage
+```
+$ make grayscale
+$ ./grayscale <path_to_image>
 
-## Segmentation:
-    - contain file for cut an image in bloc, line and character.
-    - coutain file for applying grayscale and binarization.
-        - Usage : make grayscale
-                "> ./grayscale path_to_image" to show the process
-                make segmentation
-                "> ./segmentation path_to_image" to show the process
+$ make segmentation
+$ ./segmentation <path_to_image>
+```
 
-## How run the OCR:
+## OCR
+The program
+
 ```
 $ make
 $ ./main
-
-    * Choose an image (there is one on the project folder)
-    * Proceed load image if you want to see it
-    * You can train the ocr if you want
-    * End finally run the OCR
 ```
+
+- step1: choose an image
+- step2: load the image (optionnal)
+- step3: train the ocr for better performance
+- step4: run the OCR
