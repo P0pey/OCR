@@ -4,7 +4,9 @@ EPITA S3 Project (2023#)
 Optical character recognition software written in C.
 
 Group Name: Trantor
+
 Members:
+
 - hugo.moreau (Moreau Hugo) => [github](https://github.com/iRyukizo)
 - anthony1.truong (TRUONG Anthony)
 - maxime.chardon (CHARDON Maxime) => [github](https://github.com/)
