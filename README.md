@@ -1,6 +1,6 @@
 # Optical Characters Recognition
 
-EPITA S3 Project
+EPITA Project
 Optical character recognition software written in C.
 
 ## Neural Network in /NeuralNetwork
