@@ -3,7 +3,7 @@
 EPITA Project
 Optical character recognition software written in C.
 
-## Neural Network in /NeuralNetwork
+## Neural Network in ./NeuralNetwork
 - contain file for build a neural network.
 - contain a xor file too.
 - We can save and load training from neural network.
@@ -18,7 +18,7 @@ $ ./ocr #train by default 1000 iterations
 $ ./ocr <path_to_char> #compute the neural network on this char image
 ```
 
-## Segmentation in /segmentation
+## Segmentation in ./segmentation
 - contain file for cut an image in bloc, line and character.
 - coutain file for applying grayscale and binarization.
 - Usage
