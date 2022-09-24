@@ -31,7 +31,7 @@ $ ./segmentation <path_to_image>
 ```
 
 ## OCR
-The program
+The program perform :
 
 ```
 $ make
